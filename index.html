@@ -1,0 +1,106 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Transcript Grabber Privacy Policy</title>
+
+<style>
+  /* Plain legal document: one readable column, clear headings, a short summary box at the top. */
+  :root { --bg:#ffffff; --fg:#16181d; --muted:#5b6270; --line:#e1e4ea; --accent:#c81d18; --soft:#f4f5f8; --warn:#fff3c4; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg:#15171b; --fg:#eceef2; --muted:#a2a9b6; --line:#2d323c; --accent:#ff6a63; --soft:#1e2127; --warn:#4a4100; color-scheme: dark; }
+  }
+  :root[data-theme="dark"] { --bg:#15171b; --fg:#eceef2; --muted:#a2a9b6; --line:#2d323c; --accent:#ff6a63; --soft:#1e2127; --warn:#4a4100; color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { background: var(--bg); color: var(--fg); font: 16px/1.65 system-ui, "Segoe UI", sans-serif; margin: 0;
+    padding-block: 40px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 32px; line-height: 1.2; margin: 0 0 6px; text-wrap: balance; }
+  h2 { font-size: 20px; margin: 34px 0 8px; padding-top: 18px; border-top: 1px solid var(--line); }
+  p, li { margin: 8px 0; }
+  ul { padding-left: 22px; }
+  .meta { color: var(--muted); font-size: 14px; }
+  .summary { background: var(--soft); border: 1px solid var(--line); border-radius: 12px; padding: 4px 20px 12px; margin: 22px 0; }
+  .summary h2 { border: 0; padding-top: 12px; margin-top: 0; font-size: 17px; }
+  .fill { background: var(--warn); padding: 0 4px; border-radius: 3px; }
+  table { border-collapse: collapse; width: 100%; font-size: 14.5px; }
+  .tbl { overflow-x: auto; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  a { color: var(--accent); }
+</style></head><body>
+
+<main>
+  <h1>Privacy Policy for Transcript Grabber</h1>
+  <p class="meta">Chrome extension "Transcript Grabber for YouTube" · Last updated: 24 November 2026</p>
+
+  <div class="summary">
+    <h2>The short version</h2>
+    <ul>
+      <li>The extension works inside your browser. We have no server and we do not collect, see or store your data.</li>
+      <li>Your history, bookmarks, highlights, settings and keys stay on your computer.</li>
+      <li>Text is sent to Google, Anthropic or Notion only when you press a button that uses your own key or token for that service.</li>
+      <li>No ads, no analytics, no tracking, and we never sell data.</li>
+    </ul>
+  </div>
+
+  <h2>1. Who we are</h2>
+  <p>Transcript Grabber is a browser extension published by <span class="fill">[YOUR NAME OR BUSINESS NAME]</span>. You can contact us at <span class="fill">[YOUR SUPPORT EMAIL]</span>.</p>
+
+  <h2>2. What the extension does</h2>
+  <p>It lets you read, search, translate, copy, download and summarize the transcript of a YouTube video, save highlights and bookmarks, and turn a video into notes or a one-page image.</p>
+
+  <h2>3. Information the extension handles</h2>
+  <div class="tbl"><table>
+    <tr><th>Information</th><th>Why</th><th>Where it goes</th></tr>
+    <tr><td>Video transcript (captions) and, if you ask for it, the visible top comments of a video</td><td>To show, search, translate, export and summarize them</td><td>Read from YouTube pages in your browser. Kept on your computer.</td></tr>
+    <tr><td>Your history of recent transcripts (last 50), highlights, bookmarks, cached summaries and settings</td><td>So you can search them later</td><td>Stored on your computer only, in the browser's extension storage</td></tr>
+    <tr><td>Your API keys (Google Gemini, Anthropic Claude) and Notion token and page ID, if you add them</td><td>To make requests that you ask for, with your own accounts</td><td>Stored on your computer only. Sent only to the service they belong to.</td></tr>
+    <tr><td>The text you choose to summarize or ask about</td><td>To produce an AI summary, answer or one-page image</td><td>Sent to Google (Gemini) or Anthropic (Claude), depending on the provider you chose, using your key. Only when you press the button.</td></tr>
+    <tr><td>Notes, highlights or a transcript you choose to send to Notion</td><td>To create a page in your Notion workspace</td><td>Sent to Notion, using your token. Only when you press the button.</td></tr>
+  </table></div>
+  <p>The extension does not collect your name, email address, browsing history, location or any other personal information. It reads page content only on YouTube (youtube.com).</p>
+
+  <h2>4. Features that send data to others</h2>
+  <ul>
+    <li><b>AI with your key.</b> If you add a Gemini or Claude key, the transcript or comments you selected, and your question, are sent to that provider to get an answer. That provider's own privacy policy applies. Google states that prompts on its free Gemini tier may be used to improve its products, so avoid confidential material when using a free key.</li>
+    <li><b>Notion.</b> If you add a Notion token and a page, the content you choose to send is sent to Notion.</li>
+    <li><b>Translation.</b> Translated captions are requested from YouTube, using YouTube's own caption translation.</li>
+    <li><b>On-device AI.</b> If your Chrome supports built-in AI, it runs on your computer.</li>
+    <li><b>ChatGPT, Claude, Gemini and Obsidian buttons.</b> These copy a prompt to your clipboard and open the site or app. The extension does not send anything to them. You decide whether to paste it.</li>
+  </ul>
+
+  <h2>5. What we do not do</h2>
+  <ul>
+    <li>We do not run a server and we do not receive your data.</li>
+    <li>We do not sell, rent or share your data.</li>
+    <li>We do not use your data for advertising, profiling, credit or lending decisions.</li>
+    <li>We do not use analytics, trackers or remote code.</li>
+    <li>No person at our end reads your data, because it never reaches us.</li>
+  </ul>
+
+  <h2>6. Permissions and why they are needed</h2>
+  <ul>
+    <li><b>Access to youtube.com</b>: to read captions and show the transcript panel on video pages.</li>
+    <li><b>Access to api.anthropic.com, generativelanguage.googleapis.com and api.notion.com</b>: only to make the requests you start with your own key or token.</li>
+    <li><b>Storage</b>: to keep your history, bookmarks and settings on your computer.</li>
+    <li><b>Active tab and scripting</b>: to read the transcript from the YouTube tab you are using when you open the extension.</li>
+    <li><b>Context menu</b>: for the "Get transcript" right-click option.</li>
+  </ul>
+
+  <h2>7. Your choices and deleting your data</h2>
+  <ul>
+    <li>Use <b>Clear history</b> in the Library tab to remove saved transcripts. Delete individual bookmarks and highlights in the panel.</li>
+    <li>Remove your keys and tokens by clearing the fields and saving, or by deleting the keys at the provider.</li>
+    <li>Removing the extension from Chrome deletes all data it stored.</li>
+  </ul>
+
+  <h2>8. Security</h2>
+  <p>Keys and tokens are stored in your browser's extension storage on your own computer. Anyone with access to your browser profile could read them, so keep your computer and Chrome profile secure, and use keys you can delete or replace.</p>
+
+  <h2>9. Children</h2>
+  <p>The extension is not directed at children under 13 and does not knowingly collect their information.</p>
+
+  <h2>10. Changes to this policy</h2>
+  <p>If this policy changes, we will update the date above and describe the change in the extension's store listing.</p>
+
+  <h2>11. Contact</h2>
+  <p>Questions about this policy: <span class="fill">[YOUR SUPPORT EMAIL]</span>.</p>
+</main>
+</body></html>
